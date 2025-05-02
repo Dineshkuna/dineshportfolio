@@ -79,9 +79,9 @@ const Hero: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-tl from-blue-600 to-teal-400 rounded-full opacity-20 animate-pulse"></div>
               <div className="absolute inset-2 bg-white dark:bg-gray-800 rounded-full overflow-hidden">
                 <img 
-                  src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                  src="src\assests\dinPic1.jpg" 
                   alt={about.name}
-                  className="w-full h-full object-cover object-center"
+                  className="w-full h-full object-cover object-top ms-8 "
                 />
               </div>
             </div>

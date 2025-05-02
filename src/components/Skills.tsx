@@ -68,7 +68,7 @@ const Skills: React.FC = () => {
           </h3>
           
           <div className="flex flex-wrap justify-center gap-3">
-            {['Redux', 'GraphQL', 'Jest', 'Cypress', 'Next.js', 'Webpack', 'SCSS', 'Bootstrap', 'Figma', 'Firebase'].map((tech) => (
+            {['Redux',  'Postman',  'Next.js', 'Tailwind', 'SCSS', 'Bootstrap'].map((tech) => (
               <span 
                 key={tech}
                 className="px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full text-sm hover:bg-blue-100 dark:hover:bg-blue-900/30 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
