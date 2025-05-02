@@ -24,37 +24,37 @@ export const projects: Project[] = [
   },
   {
     id: "2",
-    title: "Task Management App",
+    title: "Travel App",
     description:
-      "A collaborative task management application with real-time updates and team collaboration features.",
-    tags: ["React",  "Tailwind CSS", "TypeScript"],
+      "I developed a responsive travel booking application using React.js, implementing features like destination search, filters, booking flow, and user authentication. I integrated third-party APIs for travel packages, weather updates, and maps, while creating reusable UI components for a dynamic and consistent user experience. The app was optimized for performance and ensured cross-platform compatibility.",
+    tags: ["React",  "Tailwind CSS", "Javascript", "NodeJs", "Express", "Mongodb"],
     image:
-      "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.unsplash.com/photo-1530521954074-e64f6810b32d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     link: "https://example.com/taskmanager",
     github: "https://github.com/example/taskmanager",
   },
-  {
-    id: "3",
-    title: "Financial Dashboard",
-    description:
-      "An interactive dashboard for tracking personal finances with data visualization and budgeting tools.",
-    tags: ["React",  "Express"],
-    image:
-      "https://images.pexels.com/photos/7567444/pexels-photo-7567444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    link: "https://example.com/finance",
-    github: "https://github.com/example/finance",
-  },
-  {
-    id: "4",
-    title: "Social Media Analytics",
-    description:
-      "A tool for analyzing social media engagement and providing actionable insights.",
-    tags: [ "React",  "API Integration"],
-    image:
-      "https://images.pexels.com/photos/905163/pexels-photo-905163.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    link: "https://example.com/analytics",
-    github: "https://github.com/example/analytics",
-  },
+  // {
+  //   id: "3",
+  //   title: "Financial Dashboard",
+  //   description:
+  //     "An interactive dashboard for tracking personal finances with data visualization and budgeting tools.",
+  //   tags: ["React",  "Express"],
+  //   image:
+  //     "https://images.pexels.com/photos/7567444/pexels-photo-7567444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  //   link: "https://example.com/finance",
+  //   github: "https://github.com/example/finance",
+  // },
+  // {
+  //   id: "4",
+  //   title: "Social Media Analytics",
+  //   description:
+  //     "A tool for analyzing social media engagement and providing actionable insights.",
+  //   tags: [ "React",  "API Integration"],
+  //   image:
+  //     "https://images.pexels.com/photos/905163/pexels-photo-905163.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  //   link: "https://example.com/analytics",
+  //   github: "https://github.com/example/analytics",
+  // },
 ];
 
 export const experiences: Experience[] = [

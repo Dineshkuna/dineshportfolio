@@ -52,10 +52,10 @@ const Education: React.FC = () => {
             </h3>
             <div className="grid gap-4 md:grid-cols-2">
               {[
-                { name: 'AWS Certified Developer Associate', issuer: 'Amazon Web Services', year: '2022' },
-                { name: 'Professional Scrum Master I', issuer: 'Scrum.org', year: '2021' },
-                { name: 'Advanced React and Redux', issuer: 'Udemy', year: '2020' },
-                { name: 'MongoDB University - M220JS', issuer: 'MongoDB Inc.', year: '2019' }
+                { name: 'Certified React & JavaScript', issuer: 'Dev town', year: '2022' },
+                { name: 'Certified Programming in HTML5 with JavaScript and CSS3', issuer: 'HackerRank', year: '2022' },
+                { name: 'Advanced React and Redux', issuer: 'Udemy', year: '2023' },
+                { name: 'Certified HTML/CSS', issuer: 'Lets Upgrade.', year: '2022' }
               ].map((cert, index) => (
                 <div key={index} className="p-4 bg-white dark:bg-gray-700 rounded-lg">
                   <h4 className="font-medium text-gray-900 dark:text-white">
