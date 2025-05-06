@@ -13,12 +13,12 @@ import {
 } from './components';
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true); // Set default to true for dark mode
 
   useEffect(() => {
-    const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    setDarkMode(prefersDarkMode);
-  }, []);
+    // Always start in dark mode
+    document.documentElement.classList.add('dark');
+  }, []); // Empty dependency array means this runs once on mount
 
   useEffect(() => {
     if (darkMode) {
