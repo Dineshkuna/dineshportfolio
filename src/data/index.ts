@@ -30,7 +30,7 @@ export const projects: Project[] = [
     tags: ["React",  "Tailwind CSS", "Javascript", "NodeJs", "Express", "Mongodb"],
     image:
       "https://images.unsplash.com/photo-1530521954074-e64f6810b32d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    link: "adventureclient.vercel.app",
+    link: "https://adventureclient.vercel.app/",
     github: "https://github.com/Dineshkuna/adventureclient",
   },
   // {
