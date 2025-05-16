@@ -58,8 +58,23 @@ export const projects: Project[] = [
 ];
 
 export const experiences: Experience[] = [
+
   {
     id: "1",
+    role: "Full Stack Developer",
+    company: "Tek Systems.",
+    duration: "June 2023 - Present",
+    description: [
+      "Lead Front-End React Developer for the Digital Credit Portal (DCP), a banking application for HSBC (US Bank).",
+      "Built high-performance, responsive, and accessible applications using React.js by developing new features and enhancing existing ones.",
+      "Resolved complex styling issues to improve user experience and maintain visual consistency.",
+      "Developed UI screens based on precise client requirements, ensuring pixel-perfect implementation.",
+      "Wrote clean, well-documented, and maintainable code following modern software engineering best practices.",
+    ],
+    
+  },
+  {
+    id: "2",
     role: "Software Developer",
     company: "Accenture",
     duration: "Jan 2022 - Mar 2023",
@@ -74,17 +89,18 @@ export const experiences: Experience[] = [
     ],
     
   },
+  
+
   {
-    id: "2",
-    role: "Full Stack Developer",
-    company: "Tek Systems.",
-    duration: "June 2023 - Present",
+    id: "3",
+    role: "Billing Engineer",
+    company: "Chabbars Associates.",
+    duration: "Nov 2019 - Dec 2021",
     description: [
-      "Lead Front-End React Developer for the Digital Credit Portal (DCP), a banking application for HSBC (US Bank).",
-      "Built high-performance, responsive, and accessible applications using React.js by developing new features and enhancing existing ones.",
-      "Resolved complex styling issues to improve user experience and maintain visual consistency.",
-      "Developed UI screens based on precise client requirements, ensuring pixel-perfect implementation.",
-      "Wrote clean, well-documented, and maintainable code following modern software engineering best practices.",
+      "Prepared and verified detailed billing reports and documentation for construction and infrastructure projects, ensuring accuracy and compliance with project specifications.",
+      "Collaborated with project managers and site engineers to track work progress, material usage, and generate timely client invoices.",
+      "Maintained organized records and supported audits by ensuring accurate cost estimations, quantity take-offs, and billing schedules",
+      
     ],
     
   },
@@ -123,7 +139,7 @@ export const education: Education[] = [
 export const about = {
   name: "Dinesh Kuna",
   title: "Senior Software Developer",
-  description: `I'm a passionate software developer with over 3+ years of experience in building modern web applications. My expertise lies in frontend development with React and JavaScript.I enjoy solving complex problems.`,
+  description: `I'm a passionate software developer with over 5+ years(2yrs on Non-iT)  of experience in building modern web applications. My expertise lies in frontend development with React and JavaScript.I enjoy solving complex problems`,
   location: "Hyderabad,India",
   email: "kunadinesh.work@gmail.com",
   phone: "+91 8019482404", // Fictional number as placeholder
