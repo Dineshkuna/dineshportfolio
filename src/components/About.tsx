@@ -1,6 +1,5 @@
 import React from 'react';
-import { about } from '../data';
-import { MapPin, Mail, Phone } from 'lucide-react';
+
 
 const About: React.FC = () => {
   return (
@@ -15,15 +14,30 @@ const About: React.FC = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">
-              Get to know me!
+            <h3 className="text-2xl font-semibold">
+              Frontend Engineer crafting scalable web experiences
             </h3>
             
-            <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-              {about.description}
+            <p className="mt-4 text-gray-300 leading-relaxed">
+              I am a Frontend Engineer with 3+ years of experience building 
+              high-performance web applications using React.js and Next.js.
+
+              I have worked on real-world production systems across pharma, 
+              eCommerce, and enterprise domains, focusing on performance 
+              optimization, reusable architecture, and seamless user experience.
+
+              I specialize in building scalable UI systems, integrating APIs, 
+              and delivering fast, SEO-friendly applications.
             </p>
+
+            <ul className="mt-4 space-y-2 text-gray-300">
+              <li>✔ Production-ready application development</li>
+              <li>✔ Performance optimization (lazy loading, code splitting)</li>
+              <li>✔ Scalable and reusable component architecture</li>
+              <li>✔ Strong API integration & error handling</li>
+            </ul>
             
-            <div className="space-y-2">
+            {/* <div className="space-y-2">
               <div className="flex items-center space-x-3">
                 <MapPin className="text-blue-600 dark:text-blue-400" size={20} />
                 <span className="text-gray-700 dark:text-gray-300">{about.location}</span>
@@ -46,9 +60,9 @@ const About: React.FC = () => {
                   {about.phone}
                 </a>
               </div>
-            </div>
+            </div> */}
             
-            <div className="pt-4">
+            {/* <div className="pt-4">
               <a 
                 href="/resume.pdf" 
                 className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300 shadow-md"
@@ -57,7 +71,7 @@ const About: React.FC = () => {
               >
                 Download Resume
               </a>
-            </div>
+            </div> */}
           </div>
           
           <div className="relative h-full min-h-[400px] rounded-xl overflow-hidden shadow-2xl">

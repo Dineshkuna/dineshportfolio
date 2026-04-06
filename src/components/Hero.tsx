@@ -31,14 +31,19 @@ const Hero: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
           <div className="w-full md:w-1/2 text-center md:text-left">
             <h1 className="font-bold text-4xl md:text-5xl lg:text-6xl mb-4 text-gray-900 dark:text-white">
-              <span className="text-blue-600 dark:text-blue-400">Hello, I'm</span> <br />
+              <span className="text-blue-600 dark:text-blue-400">Hi, I'm</span> <br />
               {about.name}
             </h1>
             <h2 className="text-xl md:text-2xl font-medium text-gray-700 dark:text-gray-300 mb-6">
               {about.title}
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mb-8 max-w-lg mx-auto md:mx-0">
-              {about.description.split(' ').slice(0, 30).join(' ')}...
+              {about.description}
+              <ul>
+                <li>✔ 3+ Years Experience </li>
+                <li>✔ Production-level Projects </li>
+                <li>✔ Strong in Performance Optimization & UI Architecture </li>
+              </ul>
             </p>
             
             <div className="flex flex-wrap gap-4 justify-center md:justify-start mb-8">
