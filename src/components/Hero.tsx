@@ -1,7 +1,7 @@
 import React from 'react';
 import { about } from '../data';
 import { Github, Linkedin, Twitter, ArrowDown } from 'lucide-react';
-import imgN from '../assests/dinPic1.png'
+import imgN from '../assests/dinPic1.jpeg'
 const Hero: React.FC = () => {
   return (
     <section 
@@ -82,7 +82,7 @@ const Hero: React.FC = () => {
           <div className="w-full md:w-1/2 flex justify-center md:justify-end">
             <div className="relative w-64 h-64 md:w-80 md:h-80">
               <div className="absolute inset-0 bg-gradient-to-tl from-blue-600 to-teal-400 rounded-full opacity-20 animate-pulse"></div>
-              <div className="absolute inset-2 bg-white dark:bg-gray-800 rounded-full overflow-hidden">
+              <div className="absolute inset-2 bg-white dark:bg-gray-800 rounded-full overflow-hidden px-5 shadow-2xl">
                 <img 
                   // src="..\src\assests\dinPic1.png" 
                   // src="../assests/dinPic1.png"
