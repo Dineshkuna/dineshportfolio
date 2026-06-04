@@ -63,7 +63,7 @@ export const experiences: Experience[] = [
     id: "1",
     role: "Next.js & React.js Developer",
     company: "Weblabs solutions pvt.ltd",
-    duration: "May 2025 – Feb 2026",
+    duration: "Sep 2023 – Feb 2026",
     description: [
       "Developed responsive, high-performance web applications using HTML, CSS, JavaScript, and React.js for event and pharmaceutical business domains.",
       "Implemented modern UI/UX practices, ensuring visually consistent and user-friendly interfaces aligned with client requirements.",
@@ -74,25 +74,10 @@ export const experiences: Experience[] = [
     
   },
 
-  {
-    id: "2",
-    role: "Software Developer",
-    company: "MasterKube software solutions pvt.ltd",
-    duration: "Oct 2023 – March 2025",
-    description: [
-      "Contributed to the development of the Takealot eCommerce application using React.js and Redux.",
-      "Created reusable components and services based on component-driven architecture.",
-      "Designed and implemented an Inline Edit Component for form inputs to enhance user experience.",
-      "Consumed REST APIs efficiently for dynamic data rendering and state management.",
-      "Performed comprehensive API testing using Postman to ensure reliable backend integration.",
-      "Developed scalable, interactive user interfaces and maintained front-end performance.",
-      "Collaborated in an Agile team environment to deliver high-quality features on schedule.",
-    ],
-    
-  },
+  
 
   {
-    id: "3",
+    id: "2",
     role: "Full Stack Developer",
     company: "Tek Systems.",
     duration: "May 2023 – Sep 2023",
